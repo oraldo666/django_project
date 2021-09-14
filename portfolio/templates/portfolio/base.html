@@ -9,14 +9,14 @@
     <!-- Bootstrap CSS -->
     {% load static %}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="{% static 'portfolio/custom.css' %}">
+    <link rel="stylesheet" href="{% static 'portfolio/base.css' %}">
     <link rel="icon" type="image/png" href="{% static 'portfolio/aldo_logo2.png' %}">
 
     <title>Aldo's website 😊</title>
 
   </head>
-  <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <body style="background-image: url({% static 'portfolio/stock-vector.jpg' %})">
+ <nav id="nav_bar" class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,6 +59,21 @@
                 margin-right:auto" ></a>
     <br>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 {% block content %}{% endblock %}
     <!-- Optional JavaScript; choose one of the two! -->
