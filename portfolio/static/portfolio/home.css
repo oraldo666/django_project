@@ -1,4 +1,5 @@
 #customer_form{
+    display:flex;
     background: url("portfolio/line_shine1.jpg");
     margin-left: auto;
     margin-right: auto;

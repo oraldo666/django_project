@@ -32,13 +32,13 @@
 <div style="background-image: url({% static 'portfolio/stock-vector.jpg' %});">
 <h3 style="text-align:center;color:white ">Customer Form </h3>
 <hr>
-<div id="customer_form" class="text-center" style="color:white" >
+<div id="customer_form" class="text-center" style="color:black;font-weight:bold" >
 <form action="" method="post">
   {% csrf_token %}
  <div class="row mb-3 col-form-label ">
   {{form}}
    </div>
-  <input type="submit" class="btn btn-success">
+  <input type="submit" class="btn btn-dark">
 </form>
 </div>
 </div>

@@ -3,6 +3,10 @@ body{
 }
 
 
-#nav_bar {
-
-}
+#logo_img {
+    padding-top: 50px;
+    display:flex;
+    margin-right:auto;
+    margin-left:auto;
+    width: 60%;
+    }
