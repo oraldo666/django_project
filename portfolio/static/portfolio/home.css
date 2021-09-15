@@ -1,7 +1,15 @@
 #customer_form{
     display:flex;
-    background: url("portfolio/line_shine1.jpg");
     margin-left: auto;
     margin-right: auto;
-    width:30em;
+    width:50%;
+}
+
+@media (max-width: 640px){
+ #customer_form{
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+ }
 }
